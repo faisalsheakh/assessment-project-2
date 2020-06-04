@@ -1,0 +1,28 @@
+ul ,li{
+    margin: 10px auto;
+    border: 2px solid black;
+    text-decoration: none;
+    
+}
+.states{
+    margin-right: 20px;
+}
+.total{
+    background-color: darkgray;
+
+}
+.active{
+    background-color: lightblue;
+
+}
+.recv{
+    background-color: greenyellow;
+
+}
+.conf{
+    background-color: orangered;
+}
+.deaths{
+    background-color: red;
+
+}
