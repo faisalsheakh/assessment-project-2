@@ -1,0 +1,14 @@
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 500px;
+    text-align: center;
+    
+  }
+  th{
+    background-color: cornflowerblue;
+  }
+  .heading{
+    background-color: black;
+  }

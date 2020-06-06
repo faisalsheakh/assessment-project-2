@@ -11,7 +11,7 @@
         {
             for(var i in this.responseText)
             {
-            
+            console.log(data.statewise[i].state)
 
              output +='<div class="states"><ul>'
              + data.statewise[i].state+
