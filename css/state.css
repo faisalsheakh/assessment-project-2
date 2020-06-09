@@ -1,0 +1,42 @@
+.headding{
+    position: sticky;
+    top: 0;
+    background-color: rgb(113, 219, 113);
+    
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    
+  }
+
+ul ,li{
+    list-style-type: none;
+    margin: 10px auto;
+    border: 2px solid black;
+    text-decoration: none;
+    
+}
+
+.total{
+    background-color: darkgray;
+
+}
+.active{
+    background-color: lightblue;
+
+}
+.recv{
+    background-color: greenyellow;
+
+}
+.conf{
+    background-color: orangered;
+}
+.deaths{
+    background-color: red;
+
+}

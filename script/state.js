@@ -1,5 +1,5 @@
-
-
+document.getElementById("state").addEventListener("click", statewise);
+function statewise(){
 
     var xhr = new XMLHttpRequest;
     var url ="https://api.covid19india.org/data.json";
@@ -13,9 +13,7 @@
             document.getElementById('haeding').innerHTML= headding;
             for(var i in this.responseText)
             {
-            console.log(data.statewise[i].state)
-
-             output +='<div class="states"><ul><table><th>'
+             output +='<div><ul id="items"><table><th>'
              + data.statewise[i].state+
              '</th><td><li class="total">'+ data.statewise[i].confirmed +
              '</td><td><li class="active">'+ data.statewise[i].active +
@@ -24,10 +22,11 @@
              '</td><td><li class="conf">'+ data.statewise[i].deltaconfirmed +
              '</td><td><li class="recv">'+ data.statewise[i].deltarecovered +
              '</td><td><li class="deaths">'+ data.statewise[i].deltadeaths +
-             '</table></div></br>';
+             '</table></ul></div></br>';
              document.getElementById('cont').innerHTML= output;
             }
             
         }       
 }
 xhr.send();
+}

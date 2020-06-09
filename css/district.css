@@ -5,10 +5,10 @@ td, th{
     width: 500px;
     text-align: center;
     
+    
   }
-  th{
-    background-color: cornflowerblue;
-  }
-  .heading{
-    background-color: black;
+
+  .headingdis{
+    position: sticky;
+    top: 0;
   }

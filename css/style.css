@@ -3,73 +3,84 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: #333;
+}
+.about{
+    padding: 100px;
+    background-color: #4CAF50;
+    border: 10px solid #333;;
+}
+.index{
+    padding-top: 50px;
+    background-color: snow;
 }
 header{
-
+    display: flex;
+    justify-content: space-around;
     height:  100px;
-    background-color: darkgray;
+    font-size: xx-large;
+    background-color: #4CAF50;
+    border: 5px solid #333;
 }
-a{
-
+.title{
+    padding-top: 35px;
+    
+}
+.logo{
+    padding-top: 20px;
 }
 .menue{
-  height: 100%;
+  height: 800px;
   width: 160px;
   position: sticky;
   top: 0;
-  background-color: #111;
+  background-color: #333;
   overflow-x: hidden;
   padding-top: 50px;
   float: left;    
 }
+.menue a{
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    width: 100%;
+    height: 10%;
+    cursor: pointer;
+}
+.menue button:hover{
+    background-color: darkgray;
+    color: white;
+}
+
 .content{
-    padding-left: 170px;
+    padding-left: 163px;
+    background-color: snow;
 }
 .footer{
-    height: 100px;
-    background-color: gray;
-}
-.headding{
-    position: sticky;
-    top: 0;
-    background-color: honeydew;
+    height: 113px;
+    background-color: #333;
+    border: 5px solid #4CAF50;
+    padding-top: 10px;
+    padding-left: 165px;
 }
 
-td, th{
-    border: 1px solid #dddddd;
-    padding: 5px;
-    width: 150px;
-    text-align: center;
-    
-  }
 
-ul ,li{
-    list-style-type: none;
-    margin: 10px auto;
-    border: 2px solid black;
-    text-decoration: none;
-    
-}
-.states{
-    
-}
-.total{
-    background-color: darkgray;
-
-}
-.active{
-    background-color: lightblue;
-
-}
-.recv{
-    background-color: greenyellow;
-
-}
-.conf{
-    background-color: orangered;
-}
-.deaths{
-    background-color: red;
-
-}
 
